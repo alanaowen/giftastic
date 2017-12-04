@@ -1,0 +1,2 @@
+# giftastic
+API Gif generator
