@@ -1,0 +1,46 @@
+body {
+	background: url("../images/backdog.png");
+	background-size: 100%;
+}
+
+img {
+	max-height: 150px;
+}
+
+form {
+	padding: 10px;
+}
+
+form, .dogBtn {
+	background-color: #003366;
+	color: #caccce;
+}
+
+#newDogInput {
+	color: black;
+}
+
+#addDog {
+	background-color: #3399ff;
+	color: white;
+	border: none;
+}
+
+input {
+	margin: 10px;
+}
+
+button {
+	background-color: green;
+	border: none;
+}
+
+#Dogbuttons {
+	margin: 10px;
+}
+
+.dogBtn {
+	padding: 6px;
+	margin: 3px;
+}
+
