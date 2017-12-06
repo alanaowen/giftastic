@@ -1,6 +1,6 @@
 body {
-	background: url("../images/backdog.png");
-	background-size: 100%;
+	background: url("../images/dogs.png");
+	
 }
 
 img {
@@ -11,9 +11,10 @@ form {
 	padding: 10px;
 }
 
-form, .dogBtn {
-	background-color: #003366;
-	color: #caccce;
+form,
+.dogBtn {
+	background-color: pink;
+	color: black;
 }
 
 #newDogInput {
@@ -21,9 +22,14 @@ form, .dogBtn {
 }
 
 #addDog {
-	background-color: #3399ff;
+	background-color: purple;
 	color: white;
 	border: none;
+}
+
+.ratingStyle {
+	color: white;
+	background-color: black;
 }
 
 input {
@@ -31,8 +37,8 @@ input {
 }
 
 button {
-	background-color: green;
-	border: none;
+	background-color: #caccce;
+	
 }
 
 #dogButtons {
@@ -42,5 +48,6 @@ button {
 .dogBtn {
 	padding: 6px;
 	margin: 3px;
+	border: 1px solid black;
 }
 

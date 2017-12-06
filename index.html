@@ -1,41 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Dog GIF generator</title>
+<html>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <!-- CSS links -->
-  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  <!-- Google Fonts -->
+<head>
+    <title>GIFTASTIC DOGS</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-  <div class="container">
-
-    <div class="row">
-      <div id="Dogbuttons"> </div>
+    <div class='container'>
+        <div class='row'>
+            <div id='dogButtons'></div>
+        </div>
+        <div class='row'>
+            <div class='col-lg-9'>
+                <div class='display'></div>
+            </div>
+            <div class='col-lg-3'>
+                <form id='Dog-form'>
+                    <label for='newDogInput'>Add your favorite Dog Breed</label>
+                    <input type='text' id='newDogInput'>
+                    <br>
+                    <input id='addDog' type='submit' value='Submit'>
+                </form>
+            </div>
+        </div>
     </div>
-
-    <div class="row">
-      <div class="col-md-9">
-        <div class="display"> </div>
-      </div>
-
-      <div class="col-md-3">
-      	<form id="Dog-form">
-      	  <label for="newDogInput"> Add your favorite Dog breed </label>
-      	    <input type="text" id="newDogInput">
-      	    <br>
-      	    <input type="submit" id="addDog" value="Submit">
-      	</form>
-      </div>
-    </div>
-  </div> <!-- closed container div -->
-
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script type="text/javascript" src="assets/javascript/logic.js"></script>
+    
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script type="text/javascript" src="assets/javascript/logic.js"></script>
 </body>
+
 </html>
